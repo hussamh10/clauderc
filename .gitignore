@@ -1,0 +1,5 @@
+# Allowlist approach: ignore everything, then unignore what should be tracked.
+# This keeps memory, local settings, project caches, and any secrets out of git.
+*
+!.gitignore
+!CLAUDE.md
